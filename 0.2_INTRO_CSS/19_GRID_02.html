@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID</title>
+
+    <style>
+        .contenedor{
+            height: 800px;
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            grid-template-rows: 120px auto 120px;
+        }
+
+        .contenedor{
+            border:1px solid blueviolet
+        }
+
+        .cabecera{
+            background-color: black;
+        }
+
+        .contenido{
+            background-color: aquamarine;
+
+        }
+
+        .pie{
+            background-color: brown;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="cabecera">cabecera</div>
+        <div class="lateral">aside</div>
+        <div class="contendio">contenido</div>
+        <div class="pie">pie</div>
+    </div>
+</body>
+</html>

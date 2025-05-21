@@ -1,0 +1,96 @@
+<!-- LAS TABLAS SE DIVIDEN EN 3 PARTES : CABECERA, CUERPO Y PIE. 
+ CABECERA PARA DARLE ENFASIS SE USA EL TH EL CUERPO SERIA TBODY Y EL PIE TFOOT-->
+ 
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLAS</title>
+</head>
+<body>
+
+<table border="1">  <!--BORDER ES el grosor de la linea que separan las celdas-->
+    
+    <tr>  <!--TR so las filas de la tabla-->
+        <!--COLSPAN ES EL NUMERO DE ESPACO QUE VA OCUPAR -->
+        <th colspan="2">nombre</th> <th>edad</th>
+    </tr>
+    <tr>
+        <td>PACO</td> <!--TD son las columnas de la tabla-->
+        <td>LUIS</td>
+        <td>MARIA</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+    </tr>
+   
+</table>
+
+<br><br>
+
+
+
+<table border="1" style="width: 100%;">
+    <tr>
+        <td>
+            <table border="1"> <!--esto seria UNA TABLA DENTRO DE UNA TABLA-->
+                <tr>
+                    <td>dddd</td>
+                    <td>aaaa</td>
+                </tr>
+                <tr>
+                    <td>ffff</td>
+                    <td>ssss</td>
+                </tr>
+                <tr>
+                    <td>sss</td>
+                    <td>ssss</td>
+                    <td>aaa</td>
+                </tr>
+            </table>
+        </td>
+        
+    </tr>
+   
+    <tr>
+        <td>ssss</td>
+        <td>ddddd</td>
+        <td>sssss</td>
+    </tr>
+    <tr>
+        <td>ssss</td>
+        <td>sssss</td>
+        <td>ssss</td>
+    
+    </tr>
+    <tr>
+        <td>sssss</td>
+        <td>sssss</td>
+        <td>sssss</td>
+    </tr>
+    <tr>
+        <td>ssss</td>
+        <td>ssss</td>
+        <td>sssss</td>
+    </tr>
+</table>
+
+<br><br>
+
+<!--ESTO ES PARA HACER UNA LISTA DESPEGABLE
+SELECT y luego se pone OPTION donde se pone el nombre de la lista
+y en VALUE  entre las comillas naranjas se le pone el valor que queremos enviar -->
+
+<select name="" id="">
+    <option value="">aaa</option>
+    <option value="">aaa</option>
+    <option value="">sss</option>
+    <option value="">sevilla</option>
+</select>
+
+
+</body>
+</html>

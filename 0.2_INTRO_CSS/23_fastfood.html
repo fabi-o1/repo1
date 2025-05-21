@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FASTFOOD</title>
+    <style>
+
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        
+        .contenedor{
+            display: grid;
+            width: 80%;
+            height: 800px;
+            margin: 0 auto;
+            background-color: black;
+            gap: 20px;
+            padding: 20px;
+
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(3,1fr);
+
+        }
+
+        div{
+            border-radius:10px ;
+            background-color: yellow;
+            border: 2px solid white;
+
+        }
+
+        .uno{
+            background-image: url("ejercicio/imagenes/tigre2.png");
+            background-size: cover;
+        }
+        .dos{
+            background-image: url("ejercicio/imagenes/tenedor.webp");
+        background-position: right;
+        background-position: bottom;
+        }
+
+
+        .tres{
+            grid-column: 3 / span 2;
+            background-image: url("ejercicio/imagenes/menu.webp");
+        }
+
+        .cuatro{
+            grid-row: 2 / span 2;
+            background-image: url("ejercicio/imagenes/hamburguesa.webp");
+        }
+
+        .cinco .siete{
+            grid-column: 2 / span 2;
+            background-image: url("ejercicio/imagenes/logo\ tigre.webp");
+        }
+        
+        .seis{
+            grid-column: 2 /span 2;
+            background-image: url("ejercicio/imagenes/mochila\ repartidor.webp");
+
+        }
+
+        .ocho{
+            grid-column: 2/ span 2;
+
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="uno"> </div>
+        <div class="dos"></div>
+        <div class="tres"></div>
+        <div class="cuatro"></div>
+        <div class="cinco"></div>
+        <div class="seis"></div>
+        <div class="siete"></div>
+        <div class="ocho"></div>
+    </div>
+</body>
+</html>

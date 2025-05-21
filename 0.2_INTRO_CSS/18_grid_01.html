@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID</title>
+    <style>
+        .contenedor{
+            
+
+            border: 4px solid salmon;
+            background-color: aqua;
+            display: grid;
+            grid-template-columns: 1fr 2fr 9fr;   /* GRID TEMPLATE COLUMS son para el tamaño de las COLUMNAS*/
+            grid-template-rows: 1fr 2fr 3fr;  /* Y esta es para el TAMÑAO DE LAS FILAS*/
+           
+            row-gap: 10px; /* esto es la unidad que se pone para dar ESPACIO A LAS FILAS*/
+            column-gap: 5px; /*esto le da ESPACIO A LAS COLUMNAS*/
+            gap: 2px 10px; /* aqui le da las medidas directamente la primera es la FILA y la segunda es la COLUMNA*/
+
+            padding:10px ; /* EL PADDING es PARA DARLE ESPACION A LOS 4 LADOS*/
+
+            /* FR es la la medida que se usa para fracionar el espacio y poder ser mas adaptables,
+            tambien se pueden mezclar con las demas unidades */
+            /* PARA QUE LAS MEDIDAS SEAN ADPTABLES Y NO FIJAS Y ASI PODER ADAPTARSE A LAS PANTALLAS
+            DE TELEFONO MOVIL ETC AL por lo tanto si ponemos PX SON TAMAÑOS FIJOS 
+            Y AL PONER UNA MEDIDA DE % ES MEJOR YA QUE SE ADAPTA ME JOR EL TAMAÑO A LA PANTALLA*/
+        }
+
+        .contenedor div{
+            border: 1px solid red;
+            border-radius: 6px;
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <div>1</div>
+        <div>2 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, deleniti, eos quia facere quis quos quisquam tempore obcaecati quae delectus quo quasi cupiditate laborum odio. Quis cum deleniti eaque ad?Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus culpa facilis quos assumenda voluptatibus, non tempore necessitatibus consectetur maiores velit temporibus quasi dolores vel eligendi, ipsa ullam cupiditate rerum dolor. </div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+    </div>
+    
+</body>
+</html>

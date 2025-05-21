@@ -1,0 +1,25 @@
+body{
+    background-color: blueviolet;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    /* en los margenes de la pfina sn ARRIBA, DERECHA, ABAJO, IZQUIERDA*/
+    margin: 80px 50px 80px 50px;
+}
+
+h1{
+    color: aqua;
+    background-color: rgb(214, 24, 119);  
+}
+
+h2{
+    color: brown;
+}
+
+.cabecera{
+    height: 200px;
+    
+    /* BOX SHADOW ES para aplicarle sombra a ala imagen si lo pones numeros en positivo se ven a la derecha y si lo pongo en numeros negativos hacia la derecha*/
+    box-shadow: 10px 10px 10px 0px;
+
+    border-radius: 400px;
+}

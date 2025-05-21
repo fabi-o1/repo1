@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FONDO</title>
+    <style>
+        
+        div{
+            width: 80vw; /* esto seria el ancho de la imagen dentro del contnedor*/
+            height: 80vh;
+            border: 1px solid rgb(216, 23, 13);
+            margin: 0 auto;
+            }
+            .fondo{
+                background:
+                url("ejercicio/imagenes/bible-2615221_1280.webp"),
+                url("ejercicio/imagenes/home-flowers-2641959_1280.webp")
+                 linear-gradient(rgba(158, 121, 37, 0.667),  rgba(255, 0, 0, 0.703));
+
+                background-size: 100%; /* aqui es para CAMBIAR EL TAMAÑO DE LA IMAGEN */
+                /*background-size: cover; ESTO ES PARA QUE LA IMAGEN OCUPE TODA LA IMAGEN */
+                background-repeat: repeat;
+                
+                background-position: 10% 8%; /* AQUI es (donde) se dice en que posicion /
+                background-repeat: repeat-x; /* aqui solo repite la imagen en eje HOTIZONTAL.
+                esta tambien el repeat -Y que se epitiria en vertical y el REPEAT-REPEAT 
+                se repeetiria de manera normal  */
+
+            }
+        
+
+    </style>
+</head>
+<body>
+    <div class="fondo">
+        <h1>Esto es una prueba</h1>
+
+    </div>
+    
+</body>
+</html>
