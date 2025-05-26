@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .contenedor{
+            color: black;
+            display: grid;
+            grid-template-columns: 1fr 4fr 1fr;
+            grid-template-rows: auto 1fr auto;
+            height: 90vh;
+            width: 80%;
+            border: 2px solid blue;
+            margin: 0 auto;
+           
+        }
+        .uno{
+            background-color: aquamarine;
+            
+        }
+        .dos{
+            background-color: aqua;
+        }
+        .tres{
+            background-color: brown;
+        }
+        .menu{
+            grid-column: 1 /  -1 ;
+            background-color: rgb(73, 64, 64);
+            min-height: 5rem;
+        }
+        .pie{
+            grid-column: 1 /  -1;
+            min-height: 5rem;
+            background-color: blueviolet;
+        }
+
+
+        
+        /*MEDIA QUERY: es una condicion */
+          @media screen and (max-width:900px) {
+            .contenedor{
+                color: rgb(184, 116, 33);
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+            width: 80%;
+         
+            border: 2px solid blue;
+            margin: 0 auto;
+           
+        }
+
+        .menu{
+            background-color: brown;
+        }
+         .uno{
+            background-color: rgb(255, 127, 244);
+        }
+        .dos{
+            background-color: rgb(43, 255, 0);
+        }
+        .tres{
+            background-color: rgb(111, 112, 100);
+        }
+        .pie{
+            background-color: rgb(95, 55, 55);
+        }
+
+            
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div class="contenedor">
+
+        <div class="menu">menu</div>
+       <div class="uno">uno</div>
+        <div class="dos">dos</div>
+        <div class="tres">tres</div>
+        <div class="pie">pie</div>
+       
+
+    </div>
+
+    
+</body>
+</html>
