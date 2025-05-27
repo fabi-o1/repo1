@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox1 </title>
+
+    <style>
+        .contenedor{
+            display: flex;
+            gap: 10px;
+            border:1px solid rgb(0, 0, 0) ;
+            flex-direction: row; /* esto es para darle la direcion que tu quieras*/
+            flex-wrap: wrap;
+            /*height: 500px;*/
+           /* align-items: center;*/
+            justify-content: center;
+           
+
+        }
+        .uno, .dos, .tres{
+            border:2px solid rgb(7, 255, 172);
+            min-width: 100px;
+            height: 100px;
+        }
+        .uno{
+          /*flex-flow: 1 1 auto;*/
+        }
+        .dos{
+           /* flex-grow: 2;*/
+        }
+        .tres{
+            /*flex-grow: 1;
+            flex-shrink: 1;*/
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="contenedor">
+        <div class="uno">1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci excepturi repudiandae ipsam distinctio quisquam facere dignissimos fugiat illo ipsum qui neque sint accusantium, expedita praesentium? Voluptates rerum hic quisquam voluptas! </div>
+        <div class="dos">2 Lorem ipsum dolor sit amet consectetur adipis </div>
+        <div class="tres">3 </div>
+      
+    
+    </div>
+    
+</body>
+</html>
