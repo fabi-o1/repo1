@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .contenedor{
+            width: 500px;
+            height: 500px;
+            border: 2px dashed black;
+            position: relative;
+        }
+        .contenedor div{
+            width: 120px;
+            height: 50px;
+            font-weight: bold;
+            line-height: 1.5lh;
+            text-align: center;
+            border: 1px solid red;
+
+        }
+        .box1{
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: blueviolet;
+
+        }
+
+        .box2{
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: rgb(43, 226, 156);
+
+        }
+
+        .box3{
+             position: absolute;
+            top: 0;
+            left: 0;
+            background-color: rgb(61, 43, 226);
+
+        }
+
+        .box4{
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: rgb(192, 226, 43);
+           
+
+        }
+        .box5{
+             position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            background-color: rgb(35, 14, 112);
+
+
+        }
+
+
+
+
+
+        .fijo{
+            width: 500PX;
+            height: auto;
+            border: 2px solid red;
+            background-color: blueviolet;
+            margin-top: 100px;
+            position: relative;
+        }
+
+        .fijo div{
+            height: 300px;
+            width: 300px;
+            border: 2px solid rgb(78, 60, 85);
+            background-color: aqua;
+            margin-bottom: 10px;
+
+        }
+
+        .pega{
+            position: sticky; 
+           /* background-color: rgb(20, 247, 107) !important;*/
+           background-image: url(imagenes/hamburguesa.webp);
+            top: 0;
+            left: 0;
+        }
+
+        header{
+            padding-top: 20px;
+            width: 100%;
+            height: 200px;
+            background-color: rgb(73, 19, 70);
+
+
+        }
+        nav{
+            width: 100%;
+            height: 100px;
+            background-color: yellow;
+        }
+
+
+        
+
+        
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav></nav>
+    </header>
+
+
+<div class="contenedor">
+    <div class="box1">1</div>
+    <div class="box2">2</div>
+    <div class="box3">3</div>
+    <div class="box4">4</div>
+    <div class="box5">5</div>
+</div>
+
+
+
+
+
+<div class="fijo">
+    <div class="pega">1</div>
+    <div class="hijo">2</div>
+    <div class="hijo">3</div>
+    <div class="hijo">4</div>
+    <div class="hijo">5</div>
+    <div class="hijo">6</div>
+    <div class="hijo">7</div>
+    <div class="hijo">8</div>
+    <div class="hijo">9</div>
+    <div class="hijo">10</div>
+    <div class="hijo"></div>
+    <div class="hijo"></div>
+    <div class="hijo"></div>
+    <div class="hijo"></div>
+    <div class="hijo"></div>
+    <div class="hijo"></div>
+    <div class="hijo"></div>
+    <div class="hijo"></div>
+    <div class="hijo"></div>
+    <div class="hijo"></div>
+
+</div>
+</body>
+</html>

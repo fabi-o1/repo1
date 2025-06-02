@@ -21,6 +21,37 @@
 
         }
 
+        
+        .contenido {
+            width: 90%;
+            margin: 0 auto;
+            padding-top: 10rem;
+            /* border: 2px solid blue; */
+        }
+
+         header, footer {
+            background-color: rgb(39, 38, 38);
+            color: white;
+
+            font-size: 2.2rem;
+
+            font-weight: 500;
+
+        }
+
+        nav, footer div {
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            width: 90%;
+            min-height: 5rem;
+            margin: 0 auto;
+
+
+        }
+
 
 
         h1{
@@ -95,6 +126,54 @@
         }
 
 
+          .section2 {
+            background-color: #41d1eb;
+            height: 100vh;
+            border-top: 1rem solid black;
+           }
+
+              .section3 {
+            background-image: url("img/fondo_sec3.webp");
+            background-repeat: repeat;
+            height: 100vh;
+            border-top: 1rem solid black;
+        }
+
+        .section4 {
+            background-image: url("img/fondo_sec4.webp");
+            background-repeat: repeat;
+            height: 100vh;
+            border-top: 1rem solid black;
+            color: white;
+        }
+
+        .section5 {
+            background-color: rgba(31, 31, 35, .95);
+            background-repeat: repeat;
+            height: 100vh;
+            border-top: 1rem solid black;
+            color: white;
+        }
+        .section5 h2 {
+            margin-bottom: 1rem;
+        }
+
+        .videos {
+            display: flex;
+            justify-content: space-around;
+          }
+
+           .section5 h2 {
+            margin-bottom: 1rem;
+        }
+
+ 
+        
+        
+
+
+
+
       
 
      
@@ -136,9 +215,74 @@
 
     </div>
 
-    <section class="secion2">
-        <div>website</div>
+    <section class="section2">
+        <div class="contenido">
+
+            <h2> <i class="fas fa-wifi blanco" aria-hidden="true"></i> &nbsp;Websites</h2>
+            <h5>Get up and running quickly without <span class="subr-morado">breaking the bank</span></h5>
+            <p>Pick from your choice of layouts and features to launch your site in no time!
+            </p>
+        </div>
     </section>
+
+
+       <section class="section3">
+        <div class="contenido">
+            <h2><i class="fas fa-laptop-code" aria-hidden="true"></i> &nbsp;Custom Software</h2>
+            <h5>Have a project that's a bit more <span class="subr-morado">complex</span>? We do that too</h5>
+            <p>We will work with you to build your project from the ground up,
+                <span class="subr-verde">tailored specifically</span> to your needs.
+            </p>
+        </div>
+    </section>
+
+
+    <section class="section4">
+        <div class="contenido">
+            <h2><i class="fas fa-mobile-alt" aria-hidden="true"></i>&nbsp;App Development</h2>
+            <h5>Do you have the <span class="subr-morado"> perfect idea</span> for an app, but don't know where to
+                start? Let us help</h5>
+            <p>We use the <span class="subr-azul">Dart</span> language and <span class="subr-azul">Flutter</span>
+                development kit - both developed and maintained by <span class="subr-verde">Google</span> - to build
+                state of the art applications that run on both Android and iOS without the need for creating two code
+                bases.
+
+                Less development time, still compiles and performs as native code.</p>
+        </div>
+    </section>
+
+    <section class="section5">
+        <div class="contenido">
+            <h2><i class="fa-brands fa-youtube " aria-hidden="true"></i> &nbsp;Youtube</h2>
+            <div class="videos">
+                <iframe width="768" height="432" src="https://www.youtube.com/embed/qt-Zh1QV0wg?si=lVPaV-suFzs1YIdi"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                <iframe width="768" height="432" src="https://www.youtube.com/embed/qt-Zh1QV0wg?si=lVPaV-suFzs1YIdi"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+
+    </section>
+
+
+    <footer>
+        <div>
+
+            <div>
+                <i class="fa-brands fa-youtube">&nbsp;&nbsp;</i>&nbsp;
+                <i class="fa-solid fa-envelope"></i>@frozensoliddesigns.com
+            </div>
+            <div></div>
+            <div>Privacy policy</div>
+        </div>
+    </footer>
+
+    
 </div>
     
 </body>
